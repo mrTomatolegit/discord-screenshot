@@ -1,0 +1,14 @@
+{
+    "dependencies": {
+        "@jimp/plugin-circle": "^0.16.1",
+        "jimp": "^0.16.1"
+    },
+    "name": "discord-screenshot",
+    "version": "1.0.0",
+    "typings": "./typings/index.d.ts",
+    "description": "Creates an imaginary screenshot of a Discord message",
+    "main": "index.js",
+    "author": "mrTomatolegit",
+    "license": "MIT",
+    "private": true
+}
