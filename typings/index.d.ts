@@ -46,7 +46,7 @@ export = class DiscordScreenshot {
     public setUsername(text: string, font: Font | Promise<Font>): Promise<this>;
     public setTimestamp(textOrDate: Date | string, font: Font | Promise<Font>): Promise<this>;
     public setContent(text: string, font: Font | Promise<Font>): Promise<this>;
-    public contruct(): Jimp;
+    public construct(): Jimp;
 
     public static getFonts(): Promise<BuiltInFonts>;
 };
